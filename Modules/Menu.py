@@ -37,6 +37,7 @@ def linuxmenu():
 			wait(0.02)
 			sys.stdout.write(char)
 			sys.stdout.flush()
+		print('')
 		print('[1]Start Servers')
 		print('[98]Reset Files')
 		print('[99]Disable-Animations')

@@ -66,10 +66,12 @@ elif ask =='98':
 	os.remove('Settings/Config.py')
 	wait(2)
 	regetconfig()
-	print(color.green+'Reset was completed!'+color.nocolor)
+	print(color.green+'Reset Was Completed!'+color.nocolor)
 	exit()
 elif ask =='99':
 	AnimationOff() 
+	print(color.green+'Animations Was Disabled!'+color.nocolor)
+	exit()
 elif ask =='0':
 	exit()
 	
