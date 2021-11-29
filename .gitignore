@@ -1,6 +1,7 @@
 chromedriver/
 chromedriver
 Stage2/
+gar.sh/
 .gitignore/
 gitignore/
 temp/
