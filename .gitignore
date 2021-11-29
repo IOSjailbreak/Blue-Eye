@@ -1,4 +1,5 @@
 chromedriver/
+chromedriver
 .gitignore/
 gitignore/
 temp/
