@@ -29,6 +29,8 @@ def getconfig():
 #---INIT---
 MainLoader.CheckOne()
 from Settings.Starter import SystemOS
+
+
 Systemos = SystemOS #---0 for Windows / 1 for linux / -1 is UNKOWN
 #---INSTALL---
 try:
@@ -45,7 +47,7 @@ else:
 	filescheck.write('#! /usr/bin/python\n')
 	filescheck.write('Animation=True;\n')
 	filescheck.write('Downloaded=True;\n')
-	filescheck.write('Credits="Adel_Naim"')
+	filescheck.write('Credits="Adel_Naim"\n')
 	
 	
 if Systemos == 0:

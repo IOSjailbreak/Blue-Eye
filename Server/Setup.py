@@ -1,9 +1,14 @@
 from os import system
+from Settings.temp import color
 import time
 
 def FIRE():
-	print('\033[1;31m!!!FIRING ALL SERVERS!!!!\033[0m')
-	system('python ./Server/Numbers/mainnumber.py')
+	print(color.red+'!!!FIRING ALL SERVERS!!!!'+color.nocolor)
+	try:
+		system('python ./Server/Numbers/mainnumber.py')
+	except Exception:
+		print(color.red+'PLEASE RUN THE APPLICATION IN APPLICATION DIRECTORY!!!!!!!!!!'+color.nocolor)
+		exit()
 
 #--TEST--
 #FIRE()
