@@ -1,4 +1,5 @@
 #! /usr/bin/python
+#colors
 
 class color():
 	yellow='\033[1;33m'

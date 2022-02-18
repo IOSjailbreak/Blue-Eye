@@ -1,4 +1,4 @@
 #! /usr/bin/python
-Animation=True;
-Downloaded=True;
+Animation=False;
+Downloaded=False;
 Credits="Adel_Naim"

@@ -1,4 +1,5 @@
 #! /usr/bin/python
+#Menu ASkin
 import os
 import sys
 import time
@@ -15,7 +16,7 @@ def windowsmenu():
 			sys.stdout.write(char)
 			sys.stdout.flush()
 		print('\n')
-		print('[1]Get-List')
+		print('[1]Choose Tool')
 		print('[98]Reset Files')
 		print('[99]Disable-Animations')
 		print(color.red+'[0]Exit'+color.nocolor)
@@ -23,7 +24,7 @@ def windowsmenu():
 	else:
 		print(color.yellow+'[      Menu      ]'+color.nocolor)
 		print('\n')
-		print('[1]Get-List')
+		print('[1]Choose Tool')
 		print('[98]Reset Files')
 		print('[99]Disable-Animations')
 		print(color.red+'[0]Exit'+color.nocolor)
@@ -39,7 +40,7 @@ def linuxmenu():
 			sys.stdout.flush()
 		print('')
 		print('')
-		print('[1]Get-List')
+		print('[1]Choose Tool')
 		print('[98]Reset Files')
 		print('[99]Disable-Animations')
 		print(color.red+'[0]Exit'+color.nocolor)
@@ -47,16 +48,14 @@ def linuxmenu():
 	else:
 		print(color.yellow+'[      Menu      ]'+color.nocolor)
 		print('')
-		print('[1]Get-List')
+		print('[1]Choose Tool')
 		print('[98]Reset Files')
 		print('[99]Disable-Animations')
 		print(color.red+'[0]Exit'+color.nocolor)
 		print('\n')  
 		
-def list():
+def windowsmenutools():
 	print(color.yellow+'[      Menu      ]'+color.nocolor)
-	print('')
-	print('[1]IG-Report')
-	print('[2]Soon')
-	print('[0]Back')
-		
+
+def linuxmenutools():
+	print(color.yellow+'[      Menu      ]'+color.nocolor)
