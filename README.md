@@ -1,4 +1,9 @@
 # Updates:
+(18-2-2022)
+-Added MUILoader
+-Fixed some bugs
+-Imporved some preformance issues
+
 (26-11-2021)
 
 - First Release of Blue-Eye Project 
